@@ -1,16 +1,33 @@
 # 🩵 Exercícios sobre Classe e Métodos de Classe em Python 
 
-### Você sabe qual a diferença entre Classe e Métodos de Classe?
+### Você sabe qual é a diferença entre Método de Instância, Método de Classe e Método de Estância?
 
-Em Python, a diferença entre uma classe e um método de classe pode ser compreendida da seguinte forma:
 
-**Classe**
 
-_Uma classe é um modelo ou blueprint para criar objetos. Ela define atributos (variáveis) e métodos (funções) que descrevem o comportamento e as propriedades dos objetos criados a partir dela. A classe em si é uma estrutura de dados, e os objetos criados a partir dela são chamados de instâncias._
+**Método de Instância**
+
+_Definição: É o tipo de método mais comum em Python. Ele é associado a uma instância específica da classe e pode acessar e modificar os atributos da instância._
+
+_Parâmetro: Sempre recebe self como primeiro parâmetro, que representa a própria instância._
+
+_Uso: Quando a lógica do método depende dos atributos ou do estado de uma instância._
 
 **Método de Classe**
 
-_Um método de classe é um método que pertence à classe em si e não às instâncias da classe. Ele é declarado usando o decorador @classmethod, e o primeiro parâmetro que recebe é sempre a própria classe (usualmente chamado de cls), ao invés da instância do objeto (usualmente chamado de self). Métodos de classe são usados quando você precisa de uma função que opere na própria classe e não nos objetos._
+_Definição: Está associado à própria classe, não a uma instância específica. Ele pode acessar e modificar atributos da classe, mas não os da instância diretamente._
+
+_Parâmetro: Recebe cls como primeiro parâmetro, que faz referência à classe em si._
+
+_Uso: Quando a lógica do método está relacionada à classe como um todo, como manter contadores ou acessar atributos compartilhados por todas as instâncias._
+
+**Método Estático**
+
+_Definição: É um método que não acessa nem a instância (self) nem a classe (cls). Ele é como uma função comum, mas que está logicamente relacionada à classe._
+
+_Parâmetro: Não recebe nem self nem cls._
+
+_Uso: Quando o método realiza uma operação que não depende de atributos da instância ou da classe, mas ainda faz sentido no contexto da classe._
+
 
 #
 
