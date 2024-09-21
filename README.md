@@ -1,4 +1,4 @@
-# 🩵 Exercícios sobre Classe e Métodos de Classe em Python 
+# 🩵 Exercícios sobre Classes, Tipos de Métodos e definição de _@property_, _getter_ e _setter_ em Python
 
 ### Você sabe qual é a diferença entre Método de Instância, Método de Classe e Método de Estância?
 
@@ -28,7 +28,12 @@ _Parâmetro: Não recebe nem self nem cls._
 
 _Uso: Quando o método realiza uma operação que não depende de atributos da instância ou da classe, mas ainda faz sentido no contexto da classe._
 
-
 #
 
-📌 _Esses exercícios cobrem conceitos como contadores de instâncias, fábricas de objetos, controle de estoque e métodos de classe para gerenciamento de atributos globais._
+# O que são **@property**, **getter** e **setter** em Python?
+
+
+**@property**, **getter** e **setter** _são usados em Python para controlar o acesso a atributos de uma classe de forma mais elegante e segura, sem precisar alterar a forma como os atributos são acessados externamente._
+#
+
+📌 _Lista de exercícios realizados em rotina de estudo._
