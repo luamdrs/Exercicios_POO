@@ -1,3 +1,5 @@
+# Atributos de Classe
+
 class Pessoa: 
     def __init__(self, nome, idade, senha) -> None:
         self.nome = nome     # Atributo Público
