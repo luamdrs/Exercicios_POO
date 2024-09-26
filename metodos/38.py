@@ -19,6 +19,6 @@ class Livro:
 livro = Livro('Python para Iniciantes')
 livro.adicionar_pagina(1, 'Introdução à programação.')
 livro.adicionar_pagina(2, 'Variáveis, tipos e operadores.')
-livro.adicionar_pagina(3, 'Estruturas de decisação.')
-livro.adicionar_pagina(4, 'Estruturas de repeticão.')
+livro.adicionar_pagina(3, 'Estruturas de decisão.')
+livro.adicionar_pagina(4, 'Estruturas de repetição.')
 livro.mostrar_paginas()
