@@ -1,4 +1,5 @@
 # SOLID (L)
+
 class Ave:
     pass
 

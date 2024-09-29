@@ -1,4 +1,5 @@
 # SOLID (O)
+
 class MetodoPagamento:
 
     def processar(self):

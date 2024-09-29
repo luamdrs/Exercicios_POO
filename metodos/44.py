@@ -1,4 +1,5 @@
 # SOLID (S)
+
 class Usuario:
 
     def __init__(self, nome, email):
