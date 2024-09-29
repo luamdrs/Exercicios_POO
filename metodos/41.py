@@ -1,4 +1,6 @@
 # SOLID (L) -> Liskov Substitution Principle (Princípio da Substituição de Liskov)
+# As subclasses devem poder substituir suas classes base sem problemas.
+
 class Animal: 
 
     def som(self):

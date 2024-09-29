@@ -1,6 +1,5 @@
-'''2. SOLID (O) -> Open/Closed Principle (Princípio Aberto/Fechado)
-O código deve estar aberto para extensões, mas fechado para modificações. 
-Isso significa que podemos adicionar novas funcionalidades sem alterar o código existente.'''
+# 2. SOLID (O) -> Open/Closed Principle (Princípio Aberto/Fechado)
+# Adicione novas funcionalidades sem modificar o código existente.
 
 class Calculadora:
 

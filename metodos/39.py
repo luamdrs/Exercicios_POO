@@ -1,5 +1,5 @@
 # SOLID (S): Single Responsibility Principle (Princípio da Responsabilidade Única)
-# S: Cada classe deve fazer uma coisa.
+# Cada classe deve fazer uma coisa.
 
 class Relatorio:
 
