@@ -1,5 +1,7 @@
 # __iter__(self) ->  Permite que um objeto seja iterado. 
 # Necessário para usar o objeto em um loop 'for' ou em expressões de compreensão.
+# __next__(self) -> Define o que acontece quando chamamos a função next() em um iterador. 
+# Ele deve lançar uma exceção StopIteration quando não houver mais itens.
 
 class Contador:
     def __init__(self, limite) -> None:
