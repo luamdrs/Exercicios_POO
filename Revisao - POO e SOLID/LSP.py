@@ -24,9 +24,6 @@ class Audiolivro(Midia):
 def executar_midia(midia):
     midia.reproduzir()
 
-
-ebook = Ebook('A Arte da Guerra', 200)
-audiolivro = Audiolivro('A Arte da Guerra', 5)
-
-executar_midia(ebook)
-executar_midia(audiolivro)
+midias = [Ebook('A Arte da Guerra', 200), Audiolivro('A Arte da Guerra', 5)]
+for midia in midias:
+    executar_midia(midia)
