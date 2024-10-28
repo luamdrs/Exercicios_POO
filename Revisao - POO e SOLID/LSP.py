@@ -19,13 +19,14 @@ class Audiolivro(Midia):
         self.duracao = duracao
 
     def reproduzir(self):
-        print(f'Tocando o audiolivro: {self.titulo} com duração de {self.duracao} horas.')
+        print(f'Tocando o audiolivro: {self.titulo} (Audiobook) com duração de {self.duracao} horas.')
 
 def executar_midia(midia):
     midia.reproduzir()
 
+
 ebook = Ebook('A Arte da Guerra', 200)
-audiolivro = Audiolivro('A Arte da Guerra (Audiobook)', 5)
+audiolivro = Audiolivro('A Arte da Guerra', 5)
 
 executar_midia(ebook)
 executar_midia(audiolivro)
